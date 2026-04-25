@@ -1,0 +1,15 @@
+{
+  "nomad": {
+    "repo": "hashicorp/web-unified-docs",
+    "doc_root": "content/nomad",
+    "default_version": "v2.0.x",
+    "sections": {
+      "docs": "Concepts, configuration, deploy, secure, govern, networking, jobs",
+      "commands": "Nomad CLI command reference",
+      "api-docs": "HTTP API reference",
+      "intro": "Introduction and getting started",
+      "plugins": "Task driver and device plugin reference",
+      "tools": "Autoscaler, Pack, Bench"
+    }
+  }
+}

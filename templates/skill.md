@@ -1,6 +1,6 @@
 ---
 name: nomad-best-practices
-description: Official HashiCorp Nomad {version} reference docs and best practices. Auto-loads when editing .nomad / .nomad.hcl / job.hcl, Nomad agent config, ACL/Sentinel policies, or running `nomad` CLI. Use when writing job specs, picking task drivers (docker, exec2, raw_exec, podman), wiring Consul Connect / Vault / Workload Identity, configuring canary or rolling deploys, CSI volumes, host_volume, constraint/affinity/spread placement, or troubleshooting allocations and evaluations.
+description: Official HashiCorp Nomad {version} reference docs and best practices. ALWAYS load when working on Nomad — editing .nomad / .nomad.hcl / job.hcl, Nomad agent configs (nomad-server.hcl, nomad-client.hcl), ACL or Sentinel policies, autoscaler configs, or running any `nomad` CLI subcommand (job, alloc, node, eval, deployment, operator, status, plan, run, stop, var). Also load when writing job specs (group, task, network, service, template, vault, identity blocks), picking task drivers (docker, exec2, raw_exec, podman, java), wiring Consul Connect / Vault / Workload Identity, configuring update / canary / rolling deploys, CSI volumes, host_volume, constraint / affinity / spread placement, troubleshooting allocations / evaluations / deployments, or when user mentions Nomad, HashiCorp scheduler, bin packing, node pool, or namespace.
 paths:
   - "**/*.nomad"
   - "**/*.nomad.hcl"

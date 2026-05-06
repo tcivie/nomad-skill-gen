@@ -1,0 +1,14 @@
+{
+  "script_hash": "",
+  "versions": {
+    "v1.9.x": {
+      "skill_hash": ""
+    },
+    "v1.10.x": {
+      "skill_hash": ""
+    },
+    "v2.0.x": {
+      "skill_hash": ""
+    }
+  }
+}

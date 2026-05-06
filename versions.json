@@ -1,14 +1,14 @@
 {
-  "script_hash": "",
+  "script_hash": "93fcd0712f26",
   "versions": {
     "v1.9.x": {
-      "skill_hash": ""
+      "skill_hash": "14abd9daa342"
     },
     "v1.10.x": {
-      "skill_hash": ""
+      "skill_hash": "fc7f9943b5df"
     },
     "v2.0.x": {
-      "skill_hash": ""
+      "skill_hash": "74d5b13a54ab"
     }
   }
 }
